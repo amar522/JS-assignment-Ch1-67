@@ -1073,3 +1073,262 @@
 // question 5
 
 
+// var randomNum = Math.random();
+// randomNum = randomNum * 2;
+// var ceilNum = Math.ceil(randomNum);
+// if (ceilNum === 2) {
+//     document.write("random coin value: Heads")
+// } 
+// else if (ceilNum === 1) {
+//     document.write("random coin value: Tails" )    
+// }
+
+
+
+// question 6
+
+// var randNum = Math.random();
+// randNum = randNum * 100;
+// var floorNum = Math.floor(randNum);
+// document.write("random number between 1 and 100: " + floorNum)
+
+
+// question 7
+
+// var weight = prompt("Enter your weight in kilograms")
+// weight = parseFloat(weight);
+// document.write("The weight of user is " + weight + " kilograms")
+
+
+// question 8
+
+// var randNum = Math.random();
+// randNum = randNum * 10;
+// var ceilNum = Math.ceil(randNum);
+// var guessNum = +prompt("Enter number between 1 and 10 ");
+// if (ceilNum === guessNum) {
+//     alert("Congratulations!")    
+// }
+// else {
+//     alert("Try Again!")
+// }
+
+
+// ---------------------------
+
+
+
+// CHAPTER 31-34
+
+
+// question 1
+
+// var date = new Date();
+// document.write(date);
+
+
+// question 2
+// var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "Octuber", "November", "December"];
+// var date = new Date();
+// var theMonth = date.getMonth();
+// document.write("Current month: " + months[theMonth]);
+
+
+// question 3
+
+// var Days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+// var date = new Date();
+// var theDay = date.getDay();
+// document.write("Today is " + Days[theDay]);
+
+
+// question 4
+
+// var Days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+// var date = new Date();
+// var theDay = date.getDay();
+// if (Days[theDay] === "Sat" || Days[theDay] === "Sun") {
+//     document.write("It's Fun day");    
+// } 
+
+
+// question 5
+
+// var currentDate = new Date();
+// var theDate = currentDate.getDate();
+// if (theDate < 16) {
+//     document.write("First fifteen days of the month");   
+// }
+// else {
+//     document.write("Last fifteen days of the month");
+// }
+
+
+// question 6
+
+// var currentDate = new Date();
+// var todayMiliSec = currentDate.getTime();
+// var todayMin = todayMiliSec / (1000 * 60 * 60);
+// document.write("Current Date: " + currentDate);
+// document.write("<br>" + "Elapsed milliseconds since January 1, 1970: " + todayMiliSec);
+// document.write("<br>" + "Elapsed minutes since January 1, 1970: " + todayMin);
+
+
+// qusetion 7
+
+// var currentDate = new Date();
+// var hr = currentDate.getHours();
+// if (hr < 12) {
+//     document.write("It's AM");
+// }
+// else if (hr >= 12) {
+//     document.write("It's PM");
+// }
+
+
+// question 8
+
+// var laterDate = new Date("Dec 31, 2020 00:00:00");
+// document.write("Later date: " + laterDate); 
+
+
+// question 9
+
+// var ramzanDate = new Date("Jun 18, 2015");
+// var ramzanMiliSec = ramzanDate.getTime();
+// var todayDate = new Date();
+// var todayMiliSec = todayDate.getTime();
+// var  MiliSecDiff = todayMiliSec - ramzanMiliSec;
+// var daysPassed = Math.floor(MiliSecDiff / (1000 * 60 * 60 * 24));
+// document.write(daysPassed + " days have passed since 1st Ramzan, 2015");
+
+
+// question 10
+
+// var refDate = new Date("Dec 5, 2015 22:50:16");
+// var refMiliSec = refDate.getTime();
+// var beginDate = new Date("Jan 1, 2015 00:00:00");
+// var beginMiliSec = beginDate.getTime();
+// var  MiliSecDiff = refMiliSec - beginMiliSec;
+// var secondsPassed = Math.floor(MiliSecDiff / (1000 * 60));
+// document.write("On reference date " + refDate + ", <br> " + secondsPassed + " seconds had passed since beginning of 2015");
+
+
+// question 11
+
+// var currentDate = new Date();
+// document.write("current date: " + currentDate);
+// currentDate.setHours(22);
+// document.write("<br>" + "1 hour ago, it was " + currentDate);
+
+
+// question 12
+
+// var currentDate = new Date();
+// document.write("current date: " + currentDate);
+// currentDate.setFullYear(1920);
+// document.write("<br>" + "   100 years back, it was " + currentDate);
+
+
+// question 13
+
+// var currentDate = new Date();
+// var currMiliSec = currentDate.getTime();
+// var dob = new Date("Feb 6, 2000");
+// var dobYear = dob.getFullYear();
+// var dobMiliSec = dob.getTime();
+// var MiliSecDiff = currMiliSec - dobMiliSec;
+// var age = Math.floor(MiliSecDiff / (1000 * 60 * 60 * 24 * 30 * 12));
+// document.write("Your age is " + age + "<br>");
+// document.write("Your birth year is " + dobYear);
+
+
+// question 14
+
+
+// -----------------
+
+
+
+// CHAPTER 35-38
+
+
+// question 1
+
+// function currDate(){
+//     var date = new Date();
+//     document.write(date);
+// }
+
+// currDate();
+
+
+
+// question 2
+
+// function greeting() {
+//     var firstName = prompt("Enter your first name: ");
+//     var lastName = prompt("Enter your last name: ");
+//     var fullName = firstName + " " + lastName;
+//     alert("Hello " + fullName); 
+// }
+
+// greeting();
+
+
+// question 3
+
+// function sum() {
+//     var firstNum = +prompt("Enter first number: ");
+//     var secondNum = +prompt("Enter second number: ");
+//     var sum = firstNum + secondNum;
+//     return sum;
+// }
+
+
+
+// question 4
+
+// function Calc() {
+//     var num1 = +prompt("Enter first number: ");
+//     var num2 = +prompt("Enter second number: ");
+//     var op = prompt("Enter desired operator: ");
+//     if (op === "+") {
+//         var result = num1 + num2;
+//         return result;     
+//     }
+//     else if (op === "-") {
+//         var result = num1 - num2;
+//         return result;        
+//     }
+//     else if (op === "*") {
+//         var result = num1 * num2;
+//         return result;        
+//     }
+//     else if (op === "/") {
+//         var result = num1 / num2;
+//         return result;        
+//     }
+//     else if (op === "%") {
+//         var result = num1 % num2;
+//         return result;        
+//     }
+// }
+
+// var res = Calc();
+// document.write("Result: " + res);
+
+
+
+// question 5
+
+// function square(a) {
+//     square = a * a;
+//     document.write("Square: " + square);
+// }
+
+
+// qusetion 6
+
+
+
