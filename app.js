@@ -1330,5 +1330,64 @@
 
 // qusetion 6
 
+// function factorial(num) {
+//     var fac = 1;
+//     for (var i = 1; i <= num; i++) {
+//         fac = fac * i;
+//     }
+//     alert(fac);
+// }
+
+
+// question 7
+
+// function counting() {
+//     var startNum = +prompt("Enter first number: ");
+//     var endNum = +prompt("Enter last number: ");
+//     for (var i = startNum; i <= endNum; i++) {
+//         document.write(i + "<br>");
+//     }
+// }
+
+
+
+// question 8
+
+
+
+// question 9
+
+// function calcArea(width, height) {
+//     var area = width * height;
+//     return area;
+// }
+
+
+
+// question 10
+
+// function palindromeCheck() {
+    // var word = prompt("Enter a word: ");
+//     var checkWord = "";
+//     for (var i = word.length - 1; i >= 0; i--) {
+//         checkWord += word[i];
+//     }
+//     if (word === checkWord) {
+//         document.write(word + " is a palindrome word.");
+//     }
+// }
+
+
+
+// question 11
+
+
+// function caseConv(str) {
+//     var firstChar = str.charAt(0);
+//     firstChar = firstChar.toUpperCase();
+//     str[0]  = firstChar;
+//     return str;
+
+// }
 
 
