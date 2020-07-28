@@ -1391,3 +1391,53 @@
 // }
 
 
+// ------------------------------
+// CHAPTER 38-42
+
+
+// question 1
+
+
+// function powerCalc(a, b) {
+//     var result = 1;
+//    for(var i = 1; i <= b; i++) {
+//        result = result * a;
+//    }
+//    alert(result);
+
+// }
+
+
+
+// question 2
+
+// function leapYear() {
+//     var checkYear = +prompt("Enter a year: ");
+//     if (checkYear % 4 === 0) {
+//         alert(checkYear + " is a leap year.");
+//     }
+// }
+
+
+
+// ------------------------
+
+// CHAPTER 43-48
+
+
+// question 1
+
+// in html
+
+
+// question 3
+
+// function delRow(r) {
+//     var i = r.parentNode.parentNode.rowIndex;
+//     document.getElementById("Table").deleteRow(i);
+//   }
+
+
+
+// question 5
+
